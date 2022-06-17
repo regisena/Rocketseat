@@ -27,3 +27,9 @@ inline > tag style > tag link
 |10   |   Class e attribute selectors ([type="radio"])|
 |100  |   ID selector|
 |1000 |   Inline|
+
+### Importância
+
+* cuidade, evite o uso
+* não é considerada uma boa prática
+* quebra o fluxo natural da cascata
