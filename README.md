@@ -8,7 +8,7 @@ inline > tag style > tag link
 
 É um cálculo matemático, onde, cada tipo de seletor e origem do estilo, possuem valores a serem considerados.
 
-|Precedência|Descrição|
+|Força|Descrição|
 |:---|:---|
 |0    |   Universal selector, combinators e negation pseudo-class (:not())|
 |1    |   Element type selector e pseudo-element (::before, ::after)|
