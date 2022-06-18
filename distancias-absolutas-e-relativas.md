@@ -1,0 +1,18 @@
+# Distâncias absolutas <length>
+
+São fixas e não alteram o seu valor.
+
+|Unidade|Nome|Equivalência|
+|:--|
+|cm|Centímetros|1cm = 96px/2.54|
+|in|Inches (polegadas)|1in - 2.54 = 96px|
+|px|Pixels|qpx = 1/96th of 1in|
+
+* o mais comum e mais utilizado é o **px**
+* não recomendado usar cm
+
+# Distâncias relativas
+
+São relativas a algum outro valor, pode ser o elemento pai, ou root, ou o tamanho da tela.
+
+*Benefícios: Maior adaptação aos diferentes tipos de tela
