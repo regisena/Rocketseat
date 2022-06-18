@@ -19,7 +19,7 @@ São relativas a algum outro valor, pode ser o elemento pai, ou root, ou o taman
 
 |Unidade|Relativo a|
 |:---|
-|em|Tamanho da font do pai
-|rem|Tamanho da font do elemento raiz (root/html)
-|vw|1% da viewport width
-|vh|1% da viewport height
+|em|Tamanho da font do pai|
+|rem|Tamanho da font do elemento raiz (root/html)|
+|vw|1% da viewport width|
+|vh|1% da viewport height|
