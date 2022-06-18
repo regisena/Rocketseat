@@ -7,5 +7,5 @@
 
 * como conhecer e estudar os valores na documentação? 
 * .[developer.mozilla.org/en-US].
-    * <color> <length>
+    * `<color> <length>`
 * os termos podem variar. `values` ou `data types` 

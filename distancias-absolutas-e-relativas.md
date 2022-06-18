@@ -15,4 +15,11 @@ São fixas e não alteram o seu valor.
 
 São relativas a algum outro valor, pode ser o elemento pai, ou root, ou o tamanho da tela.
 
-*Benefícios: Maior adaptação aos diferentes tipos de tela
+*Benefício: Maior adaptação aos diferentes tipos de tela
+
+|Unidade|Relativo a|
+|:---|
+|em|Tamanho da font do pai
+|rem|Tamanho da font do elemento raiz (root/html)
+|vw|1% da viewport width
+|vh|1% da viewport height
