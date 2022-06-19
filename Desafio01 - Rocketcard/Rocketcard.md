@@ -6,7 +6,7 @@ Neste desafio você deverá desenvolver um card que traga as informações da AP
 
 ## Layout
 
-ADICIONAR A IMAGEM AQUI
+https://github.com/regisena/Rocketseat/issues/1#issue-1276092574
 
 
 # 🚀 **Techs**
