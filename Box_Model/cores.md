@@ -52,7 +52,7 @@ element{
 
     /* Global values */
     color: inherit;
-    color: initial;
+    color: initial; /* resetar cores ao valor original*/
     color: unset;
 }
 ```
