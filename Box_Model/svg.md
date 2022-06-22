@@ -22,3 +22,5 @@ Para fotografias, ainda prefira usar imagens rasterizadas (.png, .jpg. jpeg).
 
 Obs: O figma cria imagens vetorizadas
 -->
+
+Refência: developer.mozilla.org
