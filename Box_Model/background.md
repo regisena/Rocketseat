@@ -28,3 +28,5 @@ header{
     background-attachment: fixed; /*a imagem de fundo fica fixa*/
     background: linear-gradient(red, yellow);
 }
+
+Refência: developer.mozilla.org

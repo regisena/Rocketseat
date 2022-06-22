@@ -7,3 +7,5 @@ background-image
 -->
 
 <p style="background-image: url('caminho da imagem')">Imagem</p>
+
+Refência: developer.mozilla.org

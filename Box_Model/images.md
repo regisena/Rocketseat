@@ -30,3 +30,5 @@ Exemplo: <img
             height="100px" -- talvez estique a imagem
         >
 </a>
+
+Refência: developer.mozilla.org

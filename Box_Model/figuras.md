@@ -28,3 +28,5 @@ Criando título visíveis para as imagens
         <figcaption>Colocar um título na imagem</figcaption>
     </figure>
 </a>
+
+Refência: developer.mozilla.org
