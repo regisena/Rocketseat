@@ -141,6 +141,46 @@ p{
 }
 ```
 
+-----------------------------------------
+
+## text-transform
+
+* Transformação do texto
+
+```css
+p{
+    text-transform: uppercase; /* capitalize | lowercase |none */
+}
+```
+
+-----------------------------------------
+
+## text-decoration
+
+* Aparência decorativa de um texto
+* line: underline | overline | line-through
+    * podemos aplicdar mais de 1 valor
+* style: wavy | dotted | double | dashed | solid
+* color: `<color>` values
+
+```css
+p{
+    text-decoration: underline; /* shortlhand */
+}
+```
+
+-----------------------------------------
+
+## text-align
+
+* Alinhamento de um texto
+
+```css
+p{
+    text-align: center; /* left | right | center | justify */
+}
+```
+
 ### Referências: 
 
 - https://www.w3.org/TR/css-fonts-3
@@ -154,3 +194,6 @@ p{
 - http://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing
 - http://developer.mozilla.org/en-US/docs/Web/CSS/word-spacing
 - http://developer.mozilla.org/en-US/docs/Web/CSS/line-height
+- http://developer.mozilla.org/en-US/docs/Web/CSS/text-transform
+- http://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration
+- http://developer.mozilla.org/en-US/docs/Web/CSS/text-align
