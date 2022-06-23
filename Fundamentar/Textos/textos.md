@@ -77,6 +77,56 @@ p{
 * @import
 * link
 
+-----------------------------------------
+
+## font-variant
+
+* variações na apresentação da fonte
+
+```css
+p{
+    font-variante: small-caps;
+}
+```
+
+-----------------------------------------
+
+## font-stretch
+
+* alargamento ou encolhimento da fonte
+* aceita palavra-chaves como: expanded, condensed, normal
+* aceita porcentagem de 50% a 200%
+
+```css
+p{
+    font-stretch: expanded;
+}
+```
+
+-----------------------------------------
+
+## letter-spacing
+
+* Espaços entre caracteres
+
+```css
+p{
+    letter-spacing: 4px;
+}
+```
+
+-----------------------------------------
+
+## word-spacing
+
+* Espaços entre caracteres
+
+```css
+p{
+    word-spacing: 4px;
+}
+```
+
 ### Referências: 
 
 https://www.w3.org/TR/css-fonts-3
@@ -84,3 +134,8 @@ https://css-tricks.com/snippets/css/using-font-face/
 fonts.google.com
 
 # Atribuindo mais estilos às fontes
+
+http://developer.mozilla.org/en-US/docs/Web/CSS/font-variant
+http://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch
+http://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing
+http://developer.mozilla.org/en-US/docs/Web/CSS/word-spacing
