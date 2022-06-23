@@ -153,4 +153,4 @@ p{
 - http://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch
 - http://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing
 - http://developer.mozilla.org/en-US/docs/Web/CSS/word-spacing
-- http://developer.mozilla.org/en-US/docs/Web/CSSline-height
+- http://developer.mozilla.org/en-US/docs/Web/CSS/line-height
