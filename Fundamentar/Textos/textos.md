@@ -127,15 +127,30 @@ p{
 }
 ```
 
+-----------------------------------------
+
+## line-height
+
+* Espaços entre linhas
+* Pode ser com unidades ou sem unidades de medida
+* Comuns: 1.5 ou 2
+
+```css
+p{
+    line-height: 1.6;
+}
+```
+
 ### Referências: 
 
-https://www.w3.org/TR/css-fonts-3
-https://css-tricks.com/snippets/css/using-font-face/
-fonts.google.com
+- https://www.w3.org/TR/css-fonts-3
+- https://css-tricks.com/snippets/css/using-font-face/
+- fonts.google.com
 
 # Atribuindo mais estilos às fontes
 
-http://developer.mozilla.org/en-US/docs/Web/CSS/font-variant
-http://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch
-http://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing
-http://developer.mozilla.org/en-US/docs/Web/CSS/word-spacing
+- http://developer.mozilla.org/en-US/docs/Web/CSS/font-variant
+- http://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch
+- http://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing
+- http://developer.mozilla.org/en-US/docs/Web/CSS/word-spacing
+- http://developer.mozilla.org/en-US/docs/Web/CSSline-height
