@@ -181,6 +181,22 @@ p{
 }
 ```
 
+-----------------------------------------
+
+## text-shadow
+
+* Sobra aplicada a um texto
+* Permite múltiplos valores
+
+```css
+p{
+    text-shadow: 1px 1px 1px red,
+                2px 2px 2px green; /* offset-x | offset-y | blur-radius | color */
+}
+```
+
+-----------------------------------------
+
 ### Referências: 
 
 - https://www.w3.org/TR/css-fonts-3
@@ -197,3 +213,4 @@ p{
 - http://developer.mozilla.org/en-US/docs/Web/CSS/text-transform
 - http://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration
 - http://developer.mozilla.org/en-US/docs/Web/CSS/text-align
+- http://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
