@@ -18,11 +18,11 @@
 
 - Recebe como valor o id de um <datalist> residente no mesmo documento.
 
-# Tipod de input suportados
+# Tipos de input suportados
 
 - text, search, url, tel, email, date, month, week, time, datetime-local, number, range e color.
 
-# Tipod de input não suportados (conforme especificação)
+# Tipos de input não suportados (conforme especificação)
 
 - hidden, password, checkbox, radio, file, ou quelauer tipo de button
 
