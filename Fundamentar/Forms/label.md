@@ -1,4 +1,4 @@
-<!--
+
 <label>
 
 - associar e identificar uma (ou mais) tag de entrada de dados
@@ -11,7 +11,7 @@ Atributos
     - é feita via id do input
     - só funciona com elementos específicos
         - button, input (not hidden), meter, output, progress, select, textarea
--->
+
 
 ```html
 <!-- por asociação -->
