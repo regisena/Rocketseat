@@ -1,5 +1,4 @@
-<!--
-Formulários
+# Formulários
 
 Para que serve?
 - Capturar dados de entrada (input)
@@ -14,5 +13,3 @@ Dominar
 - Validação
 - Controles customizados
 - Javascript
-
--->

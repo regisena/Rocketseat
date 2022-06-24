@@ -1,13 +1,13 @@
-<!--
+
 <form>
 
 - Elemento que definirá um formulário
-- É um container estilo <section> <footer>
+- É um container estilo '<section> <footer>'
 
 Atributos básicos
 - action
--method
--->
+- method
+
 
 ```html
 
