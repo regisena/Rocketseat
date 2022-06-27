@@ -18,5 +18,7 @@ Atributos
 <input type="file">
 <input type="password">
 ```
+## input Atributos comuns
+
 
 [Google](http://google.com/)
