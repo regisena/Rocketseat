@@ -20,5 +20,27 @@ Atributos
 ```
 ## input Atributos comuns
 
+- autocomplete
+- autofocus "é booleano", um por página
+- disabled "é booleano"
+- readonly "é booleano" (maioria)
+- value
+- form (maioria)
+- name
+- required "é booleano" (maioria)
+- placeholder
+
+```html
+<input  type="text"
+        autocomplete="email"
+        autofocus
+        disabled>
+
+<form id="meu-form"></form>
+<input  name="email" type="email"
+        form="meu-form">
+
+```
+
 
 [Google](http://google.com/)
