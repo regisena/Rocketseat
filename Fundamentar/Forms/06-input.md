@@ -57,7 +57,8 @@ Atributos
 -pattern
     * Expressão regular para validar o que está sendo digitado no campo
     * Altamente recomendado o uso de um padrão de segurança alta de senha
-    * exemplos: queremos que a senha contenha caracteres hexadecimais com o limite de no mínimo
+    * exemplos: queremos que a senha contenha caracteres hexadecimais com o limite de no mínimo 4 e no máximo 8 caracteres
+        *pattern="[0-9a-fA-F]{4,8}"
 
 
 [Google](http://google.com/)
