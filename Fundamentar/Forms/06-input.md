@@ -98,6 +98,15 @@ Atributos
         * o mínimo e/ou máximo valor que o campo irá conter
     - size
         * Valor numérico indicando quantos caracteres esse
+    
+    - pattern
+        * Uso de expressão regular para validar o campo
+        * exemplo: o usuário só poderá colocar e-mail do domínio recketseat.com.br
+            * pattern=".+@rocketseat\.com\.br"
+    - list
+        * o id de uma tag \<datalist> que está no mesmo documento
+        * \<datalist> irá conter uma lista de valores pré definidos a fim de sugerir ao usuário, quais valores estão disponíveis
+            * Os valores do \<datalist> que não forem compatíveis com o campo, não serão apresentados como sugestão
 
 
 [Google](http://google.com/)
