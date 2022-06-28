@@ -59,6 +59,24 @@ Atributos
     * Altamente recomendado o uso de um padrão de segurança alta de senha
     * exemplos: queremos que a senha contenha caracteres hexadecimais com o limite de no mínimo 4 e no máximo 8 caracteres
         *pattern="[0-9a-fA-F]{4,8}"
+-placeholder
+    * Mostra um exemplo de texto a ser digitado no campo
+
+-reaonly / disabled
+    *Atributo booleano indicando se o campo está habilitado ou não
+
+- required
+    * o campo será obrigatório
+
+- inputmode
+    * poderá alterar o uso do teclado em smartphones
+    * exemplo: queremos que o cliente só adicione números
+        * inputmode="numeric"
+
+- autocomplete
+    * on: permite a sugesetão de: new-password ou current-password
+    * off: desabilita a opção de autocompletar
+    * new-password: o navegador poderá sugerir uma nova senha
 
 
 [Google](http://google.com/)
