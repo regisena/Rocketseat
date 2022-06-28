@@ -78,5 +78,26 @@ Atributos
     * off: desabilita a opção de autocompletar
     * new-password: o navegador poderá sugerir uma nova senha
 
+    ## Type email
+
+    - Espera que o usuário digite um email
+    - Irá validar se o valor digitado é um e-mail
+
+    # Atributos
+
+    - placeholder
+    - readonly / disabled
+    - value
+
+    - required
+
+    - multiple (boolean)
+        * o campo irá receber 1 ou mais emails, separado por vírgulas
+
+    - minlegth / maxlength
+        * o mínimo e/ou máximo valor que o campo irá conter
+    - size
+        * Valor numérico indicando quantos caracteres esse
+
 
 [Google](http://google.com/)
