@@ -42,5 +42,13 @@ Atributos
 
 ```
 
+## Type password
+
+- Colocar uma senha de maneira segura
+- Esconde o que está sendo digitado no campo
+- O estilo da apresentação do campo, depende do User Agent
+
+# Atributos
+
 
 [Google](http://google.com/)
