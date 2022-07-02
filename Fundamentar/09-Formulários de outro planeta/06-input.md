@@ -1,4 +1,4 @@
-# input
+# \<input type="text">
 
 - Um dos mais usados em formulários
 - Aceita os mais diversos tipos de dados
@@ -109,4 +109,4 @@ Atributos
             * Os valores do \<datalist> que não forem compatíveis com o campo, não serão apresentados como sugestão
 
 
-[Google](http://google.com/)
+[Referência:](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)

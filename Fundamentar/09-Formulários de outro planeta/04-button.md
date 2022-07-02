@@ -1,4 +1,4 @@
-# Button
+# \<input type="button">
 
 - Representa um botão
 - Usado para enviar formulários
@@ -16,12 +16,11 @@
 - form
 
 ```html
-<button type="submit">Enviar</button>
-
-<form>
-    <input type="text" value="">
-    <button type="reset">Limpar</button>
-</form>
+<input class="favorite styled"
+       type="button"
+       value="Add to favorites">
 
 <button disabled>Enviar</button>
 ```
+
+[Referência:](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button)

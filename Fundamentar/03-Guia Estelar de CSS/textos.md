@@ -218,6 +218,7 @@ p{
 
 # Atribuindo mais estilos às fontes
 
+- https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts
 - http://developer.mozilla.org/en-US/docs/Web/CSS/font-variant
 - http://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch
 - http://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing

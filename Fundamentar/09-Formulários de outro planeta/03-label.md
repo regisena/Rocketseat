@@ -1,5 +1,5 @@
 
-# Label
+# \<label>
 
 - associar e identificar uma (ou mais) tag de entrada de dados
 - acessibilidade
@@ -14,7 +14,7 @@ Atributos
 
 
 ```html
-<!-- por asociação -->
+<!-- por associação -->
 <label for="">
     Nome Completo:
     <input type="text">

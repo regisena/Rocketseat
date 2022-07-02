@@ -1,5 +1,5 @@
 
-<form>
+# \<form>
 
 - Elemento que definirá um formulário
 - É um container estilo "section" "footer"
@@ -22,3 +22,5 @@ Atributos básicos
     <!-- Ex: criação de usuário -->
 </form>
 ```
+
+[Referência:](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)

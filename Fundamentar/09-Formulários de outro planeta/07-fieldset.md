@@ -58,3 +58,5 @@ Atributos especiais
 </fieldset>
 <!--=================================-->
 ```
+
+[Referência:](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file)
