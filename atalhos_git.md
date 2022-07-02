@@ -1,5 +1,5 @@
-git config --global core.editor code
-git config --global --edit
+- git config --global core.editor code
+- git config --global --edit
 
 no vscode
 onde está:
