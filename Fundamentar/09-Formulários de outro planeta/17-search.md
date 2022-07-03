@@ -27,11 +27,10 @@ console.log(str.search(reDot)) // retorna -1 pois não conseguiu encontrar o pon
 </datalist>
 <input type="search" name="q" list="searchterms">
 ===
-<form action="">
-    <input type="search" name="q" list="searchterms"
-    aria-label="Campo de pesquisa: Digite seu termo de busca">
-    <button>Pesquisar</button>
-</form>
+<label for="site-search">Search the site:</label>
+<input type="search" id="site-search" name="q">
+
+<button>Search</button>
 
 ```
 
