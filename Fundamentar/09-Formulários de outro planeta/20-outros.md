@@ -36,7 +36,10 @@ fique de olho em [caniuse.com](https://caniuse.com)
 
 ```html
 
+<label for="start">Start month:</label>
 
+<input type="month" id="start" name="start"
+       min="2018-03" value="2018-05">
 
 ```
 
