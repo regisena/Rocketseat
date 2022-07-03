@@ -7,7 +7,7 @@
 
 - list / <\datalist>
 - pattern
-- aria-label
+- aria-label (opção à tag label)
 
 ```javascript
 
@@ -26,6 +26,12 @@ console.log(str.search(reDot)) // retorna -1 pois não conseguiu encontrar o pon
     <option>Linux</option>    
 </datalist>
 <input type="search" name="q" list="searchterms">
+===
+<form action="">
+    <input type="search" name="q" list="searchterms"
+    aria-label="Campo de pesquisa: Digite seu termo de busca">
+    <button>Pesquisar</button>
+</form>
 
 ```
 
