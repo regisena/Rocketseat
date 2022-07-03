@@ -18,5 +18,15 @@ console.log(str.search(re))    // retorna 4, que é o índice da primeira letra 
 console.log(str.search(reDot)) // retorna -1 pois não conseguiu encontrar o ponto "."
 
 ```
+```html
+
+<datalist id="searchterms">
+    <option>Mac</option>
+    <option>Win</option>
+    <option>Linux</option>    
+</datalist>
+<input type="search" name="q" list="searchterms">
+
+```
 
 [Referência:](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/search)
