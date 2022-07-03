@@ -19,3 +19,4 @@ console.log(str.search(reDot)) // retorna -1 pois não conseguiu encontrar o pon
 
 ```
 
+[Referência:](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/search)
