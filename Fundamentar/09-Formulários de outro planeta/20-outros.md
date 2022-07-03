@@ -22,8 +22,12 @@ fique de olho em [caniuse.com](https://caniuse.com)
 
 ```html
 
+<label for="meeting-time">Choose a time for your appointment:</label>
 
+<input type="datetime-local" id="meeting-time"
+       name="meeting-time" value="2018-06-12T19:30"
+       min="2018-06-07T00:00" max="2018-06-14T00:00">
 
 ```
 
-[Referência:]()
+[Referência:](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/datetime-local)
