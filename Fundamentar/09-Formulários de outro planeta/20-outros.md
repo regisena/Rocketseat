@@ -44,3 +44,13 @@ fique de olho em [caniuse.com](https://caniuse.com)
 ```
 
 [Referência](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/month)
+
+# \<input type="time">
+
+```html
+
+
+
+```
+
+[Referência](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time)
