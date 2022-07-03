@@ -14,3 +14,5 @@
        min="10" max="100">
 
 ```
+
+[Referência:](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number)
