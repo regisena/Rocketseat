@@ -10,3 +10,4 @@
 } // aqui fechamos o bloco
 
 ```
+ - O bloco, também criará um novo escopo. Chamamos de `block-scoped`
