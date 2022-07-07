@@ -15,7 +15,7 @@
  ## var
  
  ```js
-// var é global e poderá funcionar fora de um escopo de bloco
+// var é global e poderá funcionar fora de um escopo de bloco, aplica o hosting
 console.log('> existe x antes do bloco? ', x);
 {
     var x = 0;
