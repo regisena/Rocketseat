@@ -11,3 +11,10 @@
 
 ```
  - O bloco, também criará um novo escopo. Chamamos de `block-scoped`
+
+ ## var
+ 
+ ```js
+// var é global e poderá funcionar fora de um escopo de bloco
+
+ ```
