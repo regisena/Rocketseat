@@ -5,6 +5,8 @@
 
 ```js
 // vamos iniciar um bloco
-
+{
+    
+}
 
 ```
