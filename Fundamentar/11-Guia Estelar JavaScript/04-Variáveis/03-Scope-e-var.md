@@ -28,9 +28,10 @@ console.log('> existe x depois do bloco? ', x);
 
  ```js
 // const e let são locais e só funcionam no escopo onde foi criada
-console.log('> existe y antes do bloco? ', y);
+console.log('> existe y antes do bloco? ', y); // não
 {
     let y = 0;
+    console.log('> existe y no bloco? ', y); // sim
 }
-console.log('> existe y antes do bloco? ', y);
+console.log('> existe y depois do bloco? ', y); // não
  ```
