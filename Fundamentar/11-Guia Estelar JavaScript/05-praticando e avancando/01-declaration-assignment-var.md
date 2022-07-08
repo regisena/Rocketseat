@@ -23,7 +23,7 @@ let age, isHuman;
 age = 46;
 isHuman = true;
 
-
+console.log(name age isHuman);
 
 </script>
 ```
