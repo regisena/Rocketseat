@@ -11,4 +11,8 @@ const person = {
 
 // printing whole object
 console.log(person);
+
+// printing parts, for example the name
+console.log(person.name);
+
 ```
