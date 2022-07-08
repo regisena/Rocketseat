@@ -16,5 +16,14 @@ console.log(typeof name);
 let age = 46;
 let isHuman = true;
 
+// ou agrupamento de declarações
+
+let age, isHuman;
+
+age = 46;
+isHuman = true;
+
+
+
 </script>
 ```
