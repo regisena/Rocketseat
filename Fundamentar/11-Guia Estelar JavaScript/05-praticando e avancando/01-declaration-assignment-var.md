@@ -23,7 +23,12 @@ let age, isHuman;
 age = 46;
 isHuman = true;
 
-console.log(name age isHuman);
+// múltiplos argumentos na função
+console.log(name, age, isHuman);
+
+// escrita do texto  + variáveis
+
+
 
 </script>
 ```
