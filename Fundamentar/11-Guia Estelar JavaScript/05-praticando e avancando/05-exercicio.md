@@ -51,6 +51,10 @@ varArray = {student};
 /*
     7. Coloque no console o valor da posição zero do Array acima
 */
+console.log(varArray[0]);
 
+/*
+    8. Crie um novo student e cologuqe na posição 1 do Array criado na quetão 6.
+*/
 
 ```
