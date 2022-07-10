@@ -30,11 +30,18 @@
 */
 
 let student = {
-    name = "Regi",
-    age = "45",
-    weight = 82.3
+    name: "Regi",
+    age: "45",
+    weight: 82.3
 }
 
+console.log(typeof student);
+
 console.log(`${student.name} de idade ${student.age} pesa ${student.weight} kg`);
+
+/*
+    5. Declare uma varíavel do tipo Array, de nome students e atribua a ela nenhum valor, ou seja, somente o Array vazio
+*/
+
 
 ```
