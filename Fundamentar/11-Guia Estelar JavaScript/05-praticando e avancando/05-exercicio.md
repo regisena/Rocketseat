@@ -46,11 +46,11 @@ let varArray = [];
 /*
     6. Reatribua valor para a variável acima, colocando dentro dela o objeto student da questão 4. (Não copiar e colar o objeto, mas usar o objeto criado e inserir ele no Array)
 */
-
-
+varArray = {student};
 
 /*
     7. Coloque no console o valor da posição zero do Array acima
 */
+
 
 ```
