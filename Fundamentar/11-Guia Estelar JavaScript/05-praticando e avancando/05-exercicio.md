@@ -1,6 +1,6 @@
 ```js
 // 1. Declare uma variável de nome weight
-    var weight;
+    let weight;
 
 // 2. Que tipo de dado é a variável acima?
     undefined
@@ -11,10 +11,10 @@
         *  stars: Number (float)
         *  isSubscribed: Boolean
 */
-    var name;
-    var age;
-    var stars;
-    var isSubscribed;
+    let name;
+    let age;
+    let stars;
+    let isSubscribed;
 
 /*
     4. A variável student abaixo é de que tipo de dados?
