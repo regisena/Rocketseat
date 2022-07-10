@@ -29,4 +29,12 @@
     Atenção, substitua <name> <age> e <weght> pelos valores de cada propriedade do objeto
 */
 
+let student = {
+    name = "Regi",
+    age = "45",
+    weight = 82.3
+}
+
+console.log("`${student.name` de idade ");
+
 ```
