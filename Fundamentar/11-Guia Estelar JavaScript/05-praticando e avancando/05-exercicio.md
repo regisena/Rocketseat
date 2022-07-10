@@ -35,6 +35,6 @@ let student = {
     weight = 82.3
 }
 
-console.log("`${student.name` de idade ");
+console.log(`${student.name} de idade ${student.age} pesa ${student.weight} kg`);
 
 ```
