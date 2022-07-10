@@ -4,6 +4,7 @@
 
 // 2. Que tipo de dado é a variável acima?
     undefined
+    console.log(typeof weight);
 /*
     3. Declare uma variável e atribua valores para cada um dos dados:
         *  name: String
