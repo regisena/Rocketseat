@@ -5,10 +5,10 @@
 
 /*
 3. Declare uma variável e atribua valores para cada um dos dados:
-    *  name: 
-    *   
-    *   
-    *  
+    *  name: String
+    *  age: Number (integer)
+    *  stars: Number (float)
+    *  isSubscribed: Boolean
 */
 
 ```
