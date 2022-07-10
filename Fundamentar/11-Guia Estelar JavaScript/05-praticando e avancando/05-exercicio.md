@@ -17,7 +17,9 @@
     var isSubscribed;
 
 /*
-    4. 
+    4. A variável student abaixo é de que tipo de dados?
+
+    4.1 Atribua a ela as mesmas propriedades e valores
 */
 
 ```
