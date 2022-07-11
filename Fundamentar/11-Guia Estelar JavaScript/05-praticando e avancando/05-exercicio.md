@@ -69,6 +69,10 @@ varArray[1] = newStudent;
     console.log(a);
     var a = 1;
 */
-irá imprimir o valor 1, fazendo uso do hosting, já que a está declarado como var que é uma global;
+irá imprimir o valor undefined, fazendo uso do hosting, já que a está declarado como var que é uma global;
+
+var a;
+console.log(a);
+a = 1;
 
 ```
