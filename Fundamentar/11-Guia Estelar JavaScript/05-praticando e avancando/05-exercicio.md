@@ -65,5 +65,10 @@ varArray[1] = newStudent;
 
 /*
     9. Sem rodar o código responda qual é a resposta do código abaixo e por que? Após sua resposta, rode o código e veja se você acertou.
+
+    console.log(a);
+    var a = 1;
 */
+irá imprimir o valor 1, fazendo uso do hosting, já que a está declarado como var que é uma global;
+
 ```
