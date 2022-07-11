@@ -46,7 +46,7 @@ let varArray = [];
 /*
     6. Reatribua valor para a variável acima, colocando dentro dela o objeto student da questão 4. (Não copiar e colar o objeto, mas usar o objeto criado e inserir ele no Array)
 */
-varArray = {student};
+varArray = [student];
 
 /*
     7. Coloque no console o valor da posição zero do Array acima
@@ -56,5 +56,14 @@ console.log(varArray[0]);
 /*
     8. Crie um novo student e cologuqe na posição 1 do Array criado na quetão 6.
 */
+let newStudent = {
+    name: "Melissa",
+    age: 23,
+    weight: 
+}
+varArray[1] = newStudent;
 
+/*
+    9. Sem rodar o código responda qual é a resposta do código abaixo e por que? Após sua resposta, rode o código e veja se você acertou.
+*/
 ```
