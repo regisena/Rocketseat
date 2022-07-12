@@ -9,8 +9,8 @@ const sum = function(){
 sum();
 
 // parâmetros (parameters) 
-const sum = function(){
-
+const sum = function(number1, number2){
+    
 }
 
 // executar a função acima
