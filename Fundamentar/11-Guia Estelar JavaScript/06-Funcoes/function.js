@@ -15,3 +15,7 @@ const somar = function(number1, number2){
 
 // executar a função acima
 somar(4, 3); // argumentos (arguments)
+
+// outros exemplos
+somar(1,1);
+somar(5,4); 
