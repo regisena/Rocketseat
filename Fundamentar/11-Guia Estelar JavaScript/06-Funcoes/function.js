@@ -33,3 +33,6 @@ let number2 = 8;
 
 // executar a função acima
 somar2(number1, number2); // argumentos (arguments)
+
+console.log(`o número 1 é ${number1}`);
+console.log(`o número 2 é ${number2}`);
