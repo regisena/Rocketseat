@@ -9,9 +9,9 @@ const sum = function(){
 sum();
 
 // parâmetros (parameters) 
-const sum = function(number1, number2){
-    
+const somar = function(number1, number2){
+    console.log(number1 + number2);
 }
 
 // executar a função acima
-sum();
+somar(4, 3); // argumentos (arguments)
