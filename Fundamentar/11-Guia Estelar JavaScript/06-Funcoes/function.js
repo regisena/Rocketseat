@@ -18,4 +18,12 @@ somar(4, 3); // argumentos (arguments)
 
 // outros exemplos
 somar(1,1);
-somar(5,4); 
+somar(5,4);
+
+// parâmetros (parameters) 
+const somar2 = function(number1, number2){
+    console.log(number1 + number2);
+}
+
+// executar a função acima
+somar2(4, 3); // argumentos (arguments)
