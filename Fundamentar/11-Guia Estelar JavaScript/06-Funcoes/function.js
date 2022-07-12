@@ -24,6 +24,7 @@ somar(5,4);
 
 // parâmetros (parameters) 
 const somar2 = function(number1, number2){
+    // sempre declare as variáveis
     total = number1 + number2;
     return total;
 }
