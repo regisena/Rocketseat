@@ -20,10 +20,16 @@ somar(4, 3); // argumentos (arguments)
 somar(1,1);
 somar(5,4);
 
+//===================================================
+
 // parâmetros (parameters) 
 const somar2 = function(number1, number2){
     console.log(number1 + number2);
 }
 
+// declarando os argumentos
+let number1 = 2;
+let number2 = 8;
+
 // executar a função acima
-somar2(4, 3); // argumentos (arguments)
+somar2(number1, number2); // argumentos (arguments)
