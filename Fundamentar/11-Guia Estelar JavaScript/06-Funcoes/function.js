@@ -24,13 +24,14 @@ somar(5,4);
 
 // parâmetros (parameters) 
 const somar2 = function(number1, number2){
-    console.log(number1 + number2);
+    total = number1 + number2;
+    return total;
 }
 
 // declarando os argumentos
 let number1 = 2;
 let number2 = 8;
 
-console.log(`o número 1 é ${number1}`);
-console.log(`o número 2 é ${number2}`);
-console.log(`a soma é ${somar2(number1, number2)}`);
+console.log(`O número 1 é ==> ${number1}.`);
+console.log(`O número 2 é ==> ${number2}.`);
+console.log(`A soma é =====> ${somar2(number1, number2)}.`);
