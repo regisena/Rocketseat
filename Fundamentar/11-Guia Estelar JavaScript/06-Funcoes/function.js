@@ -31,8 +31,6 @@ const somar2 = function(number1, number2){
 let number1 = 2;
 let number2 = 8;
 
-// executar a função acima
-somar2(number1, number2); // argumentos (arguments)
-
 console.log(`o número 1 é ${number1}`);
 console.log(`o número 2 é ${number2}`);
+console.log(`a soma é ${somar2(number1, number2)}`);
