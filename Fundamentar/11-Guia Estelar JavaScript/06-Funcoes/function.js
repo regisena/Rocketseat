@@ -10,3 +10,5 @@
 function Person(){}
 
 const reginaldo = new Person();
+
+console.log(reginaldo);
