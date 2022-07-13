@@ -7,3 +7,6 @@
         * this keyword
 */
 
+function Person(){}
+
+const reginaldo = new Person();
