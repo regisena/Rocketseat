@@ -12,5 +12,7 @@ function Person(name){
 }
 
 const reginaldo = new Person("Regi");
-
 console.log(reginaldo);
+
+const melissa = new Person("Mel");
+console.log(melissa);
