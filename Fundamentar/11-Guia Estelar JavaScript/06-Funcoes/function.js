@@ -7,8 +7,10 @@
         * this keyword
 */
 
-function Person(){}
+function Person(name){
+    this.name = name;
+}
 
-const reginaldo = new Person();
+const reginaldo = new Person("Regi");
 
 console.log(reginaldo);
