@@ -2,3 +2,5 @@
 
 // Contar quantos caracteres tem uma palavra e quantos dígitos tem um número
 
+let word = "Paralelepípedo";
+console.log(word);
