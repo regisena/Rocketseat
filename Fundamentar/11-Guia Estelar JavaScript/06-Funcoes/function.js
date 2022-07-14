@@ -9,27 +9,23 @@
 
 function Person(name){
     this.name = name;
-}
-
-const reginaldo = new Person("Regi");
-console.log(reginaldo);
-
-const melissa = new Person("Mel");
-console.log(melissa);
-
-console.log("==========================================");
-
-function Person1(name){
-    this.name = name;
     this.walk = function(){
         return this.name + " está andando...";
     }
 }
 
-const reginaldo1 = new Person1("Regi");
-console.log(reginaldo1);
-console.log(reginaldo1.walk());
+// usando a propriedade name
+const myName = new Person("Reginaldo");
+const theNameWife = new Person("Melissa");
 
-const melissa1 = new Person1("Mel");
-console.log(melissa1);
-console.log(melissa1.walk());
+console.log(myName);
+console.log(theNameWife);
+
+console.log("==============================================");
+
+// usando a propriedade name e walk
+const myName1 = new Person("Reginaldo");
+const theNameWife1 = new Person("Melissa");
+
+console.log(myName1.walk());
+console.log(theNameWife1.walk());
