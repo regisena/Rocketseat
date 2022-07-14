@@ -4,3 +4,4 @@
 
 let word = "Paralelepípedo";
 console.log(word);
+console.log(word.length);
