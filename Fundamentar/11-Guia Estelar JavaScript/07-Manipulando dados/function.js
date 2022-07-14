@@ -4,4 +4,8 @@
 
 let word = "Paralelepípedo";
 console.log(word);
-console.log(word.length);
+console.log(word.length + " caracteres");
+console.log("==========================");
+let num = 1234;
+console.log(num);
+console.log(num.length);
