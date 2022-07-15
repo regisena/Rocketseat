@@ -1,6 +1,9 @@
 // Manipulando Arrays
 
-// Transformar uma cadeia de caracteres em elementos de um array
+let techs = ["html", "css", "js"];
 
-let word = "reginaldo";
-console.log(Array.from(word));
+// adicionar um item no fim
+
+// adicionar no começo
+
+// 
