@@ -24,4 +24,4 @@ techs.splice(1, 2);
 console.log("Remove dois itens do array: css e js ==> "+techs);
 // encontrar a posição de um elemento no array
 let index = techs.indexOf(1);
-
+console.log("Encontrando o item de índice 1: "+techs);
