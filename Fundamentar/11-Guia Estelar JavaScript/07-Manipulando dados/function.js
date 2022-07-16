@@ -21,5 +21,5 @@ console.log("Elemento (2): "+techs[2]);
 console.log(techs.slice(1,3));
 // remover 1 ou mais itens em quelquer posição do array
 techs.splice(1, 2);
-console.log();
+console.log("Remove dois itens do array: css e js ==> "+techs);
 // encontrar a posição de um elemento no array
