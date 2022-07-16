@@ -12,7 +12,8 @@ console.log("Item adicionado no início: "+techs);
 techs.pop();
 console.log("Remove do fim: "+techs);
 // remover do começo
-techs
+techs.shift();
+console.log("Remove do início: "+techs);
 // pegar somente alguns elementos do array
 
 // remover 1 ou mais itens em quelquer posição do array
