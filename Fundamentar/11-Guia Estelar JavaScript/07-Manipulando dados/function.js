@@ -17,6 +17,8 @@ console.log("Remove do início: "+techs);
 // pegar somente alguns elementos do array
 console.log("Elemento (1): "+techs[1]);
 console.log("Elemento (2): "+techs[2]);
+//ou
+console.log(techs.slice(1,3));
 // remover 1 ou mais itens em quelquer posição do array
 
 // encontrar a posição de um elemento no array
