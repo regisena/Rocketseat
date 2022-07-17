@@ -1,11 +1,3 @@
 /*
-
-    Expressões e Operadores
-
-    - Expressions
-    - Operators
-        Binary
-        Unary
-        Ternary
-
+    Grouping operator
 */
