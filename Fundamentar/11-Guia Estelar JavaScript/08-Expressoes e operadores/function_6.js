@@ -1,4 +1,4 @@
-// Operadores de comparação
+// Operadores de comparação - no valor
 
 // Irá comparar valores e retornar um Boolean como resposta à comparação
 
