@@ -12,5 +12,5 @@
     * AND                       &&
     * OR                        ||
     * condicional               ?:
-    * assignment (atribuição)   = += -= *= /=
+    * assignment (atribuição)   = += -= *= /= %=
 */
