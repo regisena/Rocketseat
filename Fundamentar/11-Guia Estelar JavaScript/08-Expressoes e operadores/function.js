@@ -9,5 +9,5 @@
     * adição e subtração        + -
     * relacional                < <= > >=
     * igualdade                 == != === !==
-    * AND                       
+    * AND                       &&
 */
