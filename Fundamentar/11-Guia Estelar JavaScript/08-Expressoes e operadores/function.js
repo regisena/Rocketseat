@@ -8,5 +8,6 @@
     * multiplicação e divisãp  * /
     * adição e subtração        + -
     * relacional                < <= > >=
-    * 
+    * igualdade                 == != === !==
+    * AND                       
 */
