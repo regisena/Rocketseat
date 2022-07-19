@@ -5,4 +5,5 @@
 
     * grouping                  ()
     * negação e incremento      ! ++ --
+    * *multiplicação e divisãp  * /
 */
