@@ -11,5 +11,5 @@
     * igualdade                 == != === !==
     * AND                       &&
     * OR                        ||
-    * condicional
+    * condicional               ?:
 */
