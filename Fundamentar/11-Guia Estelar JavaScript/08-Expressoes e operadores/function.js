@@ -3,5 +3,6 @@
 
     Precedência de operadores
 
-    
+    * grouping                  ()
+    * negação e incremento      ! ++ --
 */
