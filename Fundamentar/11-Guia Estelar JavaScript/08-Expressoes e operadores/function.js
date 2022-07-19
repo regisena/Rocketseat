@@ -10,4 +10,6 @@
     * relacional                < <= > >=
     * igualdade                 == != === !==
     * AND                       &&
+    * OR                        ||
+    * condicional
 */
