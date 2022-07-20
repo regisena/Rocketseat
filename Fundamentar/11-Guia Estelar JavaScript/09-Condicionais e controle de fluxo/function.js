@@ -18,5 +18,5 @@ function sayMyName(name = "") {
 try {
     sayMyName("");
 } catch (error) {
-    
+    console.log(error);
 }
