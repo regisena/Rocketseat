@@ -1,6 +1,8 @@
 // throw (disparar/lançar)
 
-function sayMyName(name) {
-    
+function sayMyName(name = "") {
+    if(name ===""){
+        
+    }
 }
 // try... catch (tentar... pegar)
