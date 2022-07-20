@@ -1,3 +1,3 @@
-// throw
+// throw (disparar/lançar)
 
 // try... catch
