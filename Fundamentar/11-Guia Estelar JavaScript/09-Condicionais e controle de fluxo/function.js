@@ -15,3 +15,8 @@ function sayMyName(name = "") {
     console.log("depois do erro");
 }
 // try... catch (tentar... pegar)
+try {
+    sayMyName("");
+} catch (error) {
+    
+}
