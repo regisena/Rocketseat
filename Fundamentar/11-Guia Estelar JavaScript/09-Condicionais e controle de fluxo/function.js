@@ -9,7 +9,7 @@ Isso significa que vamos tentar executar um bloco de código, e se der algum err
 
 function sayMyName(name = "") {
     if(name ===""){
-
+        throw "Nome é obrigatório";
     }
 }
 // try... catch (tentar... pegar)
