@@ -1,3 +1,3 @@
 // throw (disparar/lançar)
 
-// try... catch
+// try... catch (tentar... pegar)
