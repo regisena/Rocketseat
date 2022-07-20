@@ -8,7 +8,7 @@ Isso significa que vamos tentar executar um bloco de código, e se der algum err
 // throw (disparar/lançar)
 
 function sayMyName(name = "") {
-    if(name ===""){
+    if(name === ""){
         throw "Nome é obrigatório";
     }
 
@@ -20,3 +20,5 @@ try {
 } catch (error) {
     console.log(error);
 }
+
+console.log("após a função de erro");
