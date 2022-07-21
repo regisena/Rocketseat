@@ -22,18 +22,18 @@ numérico para sistema de notas em caracteres tipo A B C
 function converteNotas(nota){
     let notaConvertida = 0;
     if(nota < 60){
-        console.log("nota F");
+        notaConvertida = "nota F";
     }else if(nota > 60 && nota < 69){
-        console.log("nota D");
+        notaConvertida = "nota D";
     }else if(nota > 70 && nota < 79){
-        console.log("nota C");
+        notaConvertida = "nota C";
     }else if(nota > 80 && nota < 89){
-        console.log("nota B");
+        notaConvertida = "nota B";
     }else if(nota > 90){
-        console.log("nota A");
+        notaConvertida = "nota A";
     }
 
     return notaConvertida;
 }
 
-console.log(converteNotas(71));
+console.log(converteNotas(991));
