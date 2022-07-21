@@ -20,6 +20,7 @@ numérico para sistema de notas em caracteres tipo A B C
 */
 
 function converteNotas(nota){
+    let notaConvertida = 0;
     if(nota < 60){
         console.log("nota F");
     }else if(nota > 60 && nota < 69){
@@ -31,5 +32,8 @@ function converteNotas(nota){
     }else if(nota > 90){
         console.log("nota A");
     }
+
+    return notaConvertida;
 }
 
+console.log(converteNotas(71));
