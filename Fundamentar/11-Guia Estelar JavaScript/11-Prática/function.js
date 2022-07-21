@@ -31,9 +31,11 @@ function converteNotas(nota){
         notaConvertida = "nota B";
     }else if(nota >= 90){
         notaConvertida = "nota A";
+    }else{
+        notaConvertida = "Nota inválida"
     }
 
     return notaConvertida;
 }
 
-console.log(converteNotas(60));
+console.log(converteNotas(-50));
