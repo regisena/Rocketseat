@@ -10,11 +10,11 @@ Desafio:
 Crie um algoritmo que transforme as notas do sistema
 numérico para sistema de notas em caracteres tipo A B C
 
-* de 90 para cima -   A
-* de 80 a 89   -   B
-* de 70 a 79   -   C
-* de 60 a 69   -   D
-* menor que 60    -   F
+* de 90 para cima   -   A
+* de 80 a 89        -   B
+* de 70 a 79        -   C
+* de 60 a 69        -   D
+* menor que 60      -   F
 
 
 */
