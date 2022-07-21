@@ -19,3 +19,4 @@ numérico para sistema de notas em caracteres tipo A B C
 
 */
 
+let notasCaracteres = ["A","B","C","D","F"];
