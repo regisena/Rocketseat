@@ -1,9 +1,11 @@
-/*
-    ### Sistema de gastos familiar
-
-        Crie um objeto que posuirá 2 propriedades, ambas do tipo array:
-            * receitas: []
-            * despesas: []
-        Agora, crie uma função que irá calcular o total de receitas e despesas e irá mostrar uma mensagem se a família está com saldo positivo ou negativo, seguido do valor do saldo
-
-*/
+/**
+ * Buscando e contando dados em Arrays = 
+ * 
+ * Baseado no Array de Livros por Categoria abaixo, faça os seguintes desafios
+ * 
+ *  . Contar o número de categorias e o número de livros em cada categoria
+ *  . Contar o número de autores
+ *  . Mostrar livros do autor Augusto Cury
+ *  . Transformar a função acima em uma função que irá receber o nome do autor e devolver os livros desse autor.
+ * 
+ */
