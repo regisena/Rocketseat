@@ -8,19 +8,16 @@
 
 */
 
-
-function fluxoCaixaFamiliar(receitas, despesas){
+function fluxoCaixaFam iliar(receitas, despesas){
     let totalReceita = 0;
     let totalDespesa = 0;
     
     for(receita of receitas){
-        //console.log("R: "+receita);
         totalReceita += receita;
     }
     console.log("TR: "+totalReceita);
     for(despesa of despesas){
-        //console.log("D: "+despesa);
-        totalDespesa += despesa;
+          totalDespesa += despesa;
     }
     console.log("TD: "+totalDespesa);
     
@@ -35,6 +32,10 @@ function fluxoCaixaFamiliar(receitas, despesas){
     return saldo;
     //console.log(saldo);
 }
+function soma(){
+
+}
+
 let receitas = [];
 let despesas = [];
 
