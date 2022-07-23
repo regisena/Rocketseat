@@ -8,3 +8,19 @@
  * F = C * 9/5 + 32
  * 
  */
+
+function converteUnidades(unidade,temperatura){
+    switch (unidade) {
+        case "celsius":
+            let C
+        break;
+        
+        case "fahrenheit":
+
+        break;
+    
+        default:
+
+            break;
+    }
+}
