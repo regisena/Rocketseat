@@ -8,19 +8,12 @@
 
 */
 
-function fluxoCaixaFam iliar(receitas, despesas){
+function fluxoCaixaFamiliar(receitas, despesas){
     let totalReceita = 0;
     let totalDespesa = 0;
     
-    for(receita of receitas){
-        totalReceita += receita;
-    }
-    console.log("TR: "+totalReceita);
-    for(despesa of despesas){
-          totalDespesa += despesa;
-    }
-    console.log("TD: "+totalDespesa);
-    
+    totalReceita = soma(receitas);
+    totalDespesa =     
     if(totalReceita > totalDespesa){
         saldo = "Saldo positivo";
     }else if(totalReceita < totalDespesa){
@@ -32,8 +25,10 @@ function fluxoCaixaFam iliar(receitas, despesas){
     return saldo;
     //console.log(saldo);
 }
-function soma(){
-
+function soma(array){
+    for(array of arrays){
+        totalArrays += array;
+    }
 }
 
 let receitas = [];
