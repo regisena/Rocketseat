@@ -10,9 +10,12 @@
  */
 
 function converteUnidades(unidade,temperatura){
+    let C = temperatura;
+    let F = temperatura;
     switch (unidade) {
         case "celsius":
-            let C
+            F = C * 9/5 + 32;
+            console.log(F);
         break;
         
         case "fahrenheit":
