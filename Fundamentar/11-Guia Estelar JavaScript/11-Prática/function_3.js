@@ -25,10 +25,12 @@ function fluxoCaixaFamiliar(receitas, despesas){
     
     return saldo;
 }
-function soma(array){
+function soma(arrays){
+    let totalArrays = 0;
     for(array of arrays){
         totalArrays += array;
     }
+    return totalArrays;
 }
 
 let receitas = [];
