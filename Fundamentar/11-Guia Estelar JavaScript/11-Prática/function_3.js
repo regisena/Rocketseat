@@ -13,7 +13,8 @@ function fluxoCaixaFamiliar(receitas, despesas){
     let totalDespesa = 0;
     
     totalReceita = soma(receitas);
-    totalDespesa =     
+    totalDespesa = soma(despesas);
+
     if(totalReceita > totalDespesa){
         saldo = "Saldo positivo";
     }else if(totalReceita < totalDespesa){
@@ -23,7 +24,6 @@ function fluxoCaixaFamiliar(receitas, despesas){
     }
     
     return saldo;
-    //console.log(saldo);
 }
 function soma(array){
     for(array of arrays){
