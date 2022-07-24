@@ -7,11 +7,12 @@
  * 
  * F = C * 9/5 + 32
  * 
+ * Aqui foi utilizado o tabnine
  */
 
 function converteUnidades(degree){
     
-    let existsC = degree.touppercase().includes('C');
+    let existsC = degree.toUpperCase().includes('C');
     let existsF = degree.toUpperCase().includes('F');
 
     if(!existsC && !existsF){
