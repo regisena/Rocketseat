@@ -17,8 +17,10 @@ function converteUnidades(degree){
 
     if(!existsC && !existsF){
         console.log("Unidade inválida!");
+    }else if(existsC){
+        console.log("Celsius");
     }
-    console.log("Teste");
+    //console.log("Teste");
 }
 
 converteUnidades("122Z");
