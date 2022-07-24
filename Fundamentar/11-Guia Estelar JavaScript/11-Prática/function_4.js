@@ -27,4 +27,4 @@ function converteUnidades(degree){
 
 converteUnidades("122C");
 converteUnidades("50F");
-// converteUnidades("",50);
+converteUnidades("50");
