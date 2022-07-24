@@ -15,15 +15,11 @@ function converteUnidades(degree){
     let existsF = degree.toUpperCase().includes('F');
 
     if(!existsC && !existsF){
-        console.log("Converte unidades");
+        console.log("Unidade inválida!");
     }
-
-
-
-
-    existsC ? C = (F - 32) * 5/9 : C = (F - 32) * 5/9;
+    console.log("Teste");
 }
 
-converteUnidades("122F");
-converteUnidades("fahrenheit",50);
-converteUnidades("",50);
+converteUnidades("122Z");
+// converteUnidades("fahrenheit",50);
+// converteUnidades("",50);
