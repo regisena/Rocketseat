@@ -23,14 +23,13 @@ function converteUnidades(degree){
     } else{
         console.log("Fahrenheit");
     }
-    //console.log("Teste");
 }
+
 try {
-    
+    converteUnidades("50F");
+    converteUnidades("50");
 } catch (error) {
-    
+    console.log(error);   
 }
 
 converteUnidades("122C");
-converteUnidades("50F");
-converteUnidades("50");
