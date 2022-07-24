@@ -19,10 +19,12 @@ function converteUnidades(degree){
         console.log("Unidade inválida!");
     }else if(existsC){
         console.log("Celsius");
+    } else{
+        console.log("Fahrenheit");
     }
     //console.log("Teste");
 }
 
-converteUnidades("122Z");
-// converteUnidades("fahrenheit",50);
+converteUnidades("122C");
+converteUnidades("50F");
 // converteUnidades("",50);
