@@ -27,8 +27,7 @@ function converteUnidades(degree){
 try {
     converteUnidades("50F");
     converteUnidades("50");
+    converteUnidades("122C");
 } catch (error) {
     console.log(error.message);   
 }
-
-converteUnidades("122C");
