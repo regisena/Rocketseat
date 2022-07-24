@@ -17,22 +17,26 @@ function converteUnidades(degree){
     
     if(!existsC && !existsF){
         throw new Error("Grau não identificado!");
-    }//else if(existsC){
-        //console.log("Celsius");
-    //} else{
-        // fluxo ideal, F -> C
-        let updatedDegree = Number(degree.toUpperCase().replace("F", ""));
-        let formula = (fahrenheit) => (fahrenheit - 32) * 5/9;
-        let degreeSign = "C";
+    }
+    
+    // fluxo ideal, F -> C
+    let updatedDegree = Number(degree.toUpperCase().replace("F", ""));
+    let formula = fahrenheit => (fahrenheit - 32) * 5/9;
+    let degreeSign = "C";
 
-        return formula(updatedDegree) + degreeSign;
-    //}
+    if(existsC){
+        updatedDegree = Number(degree.toUpperCase().replace("C", ""));
+        formula = formula = celsius => celsius * 9/5 + 32;
+        degreeSign = "F";
+    }
+
+    return formula(updatedDegree) + degreeSign;
 }
 
 try {
     console.log(converteUnidades("50F"));
-    //converteUnidades("122C");
-    //converteUnidades("50");
+    console.log(converteUnidades("10C"));
+    console.log( converteUnidades("50"));
 } catch (error) {
     console.log(error);   
 }
