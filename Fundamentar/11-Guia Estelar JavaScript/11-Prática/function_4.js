@@ -24,6 +24,7 @@ function converteUnidades(degree){
     let formula = fahrenheit => (fahrenheit - 32) * 5/9;
     let degreeSign = "C";
 
+    // fluxo alternativo, C -> F
     if(existsC){
         updatedDegree = Number(degree.toUpperCase().replace("C", ""));
         formula = formula = celsius => celsius * 9/5 + 32;
