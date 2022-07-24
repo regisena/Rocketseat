@@ -12,8 +12,8 @@
 
 function converteUnidades(degree){
     
-    let existsC = degree.toUpperCase().includes('C');
-    let existsF = degree.toUpperCase().includes('F');
+    const existsC = degree.toUpperCase().includes('C');
+    const existsF = degree.toUpperCase().includes('F');
 
     if(!existsC && !existsF){
         throw new Error("Grau não identificado!");
@@ -26,8 +26,8 @@ function converteUnidades(degree){
 
 try {
     converteUnidades("50F");
-    converteUnidades("50");
     converteUnidades("122C");
+    converteUnidades("50");
 } catch (error) {
-    console.log(error.message);   
+    console.log(error);   
 }
