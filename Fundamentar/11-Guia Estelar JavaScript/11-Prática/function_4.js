@@ -15,6 +15,7 @@ function converteUnidades(degree){
     const existsC = degree.toUpperCase().includes('C');
     const existsF = degree.toUpperCase().includes('F');
     
+    // fluxo de erro
     if(!existsC && !existsF){
         throw new Error("Grau não identificado!");
     }
