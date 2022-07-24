@@ -9,26 +9,21 @@
  * 
  */
 
-function converteUnidades(unidade,temperatura){
-    let C = temperatura;
-    let F = temperatura;
-    switch (unidade) {
-        case "celsius":
-            C = (F - 32) * 5/9;
-            console.log(F+"F"+" => "+C+"ºC");
-        break;
-            
-        case "fahrenheit":
-            F = C * 9/5 + 32;
-            console.log(C+"ºC => "+F+"F");
-        break;
+function converteUnidades(degree){
     
-        default:
-            console.log("Nenhuma escala definida");
-            break;
+    let existsC = degree.touppercase().includes('C');
+    let existsF = degree.toUpperCase().includes('F');
+
+    if(!existsC && !existsF){
+        console.log("Converte unidades");
     }
+
+
+
+
+    existsC ? C = (F - 32) * 5/9 : C = (F - 32) * 5/9;
 }
 
-converteUnidades("celsius",122);
+converteUnidades("122F");
 converteUnidades("fahrenheit",50);
 converteUnidades("",50);
