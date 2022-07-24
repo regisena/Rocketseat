@@ -14,12 +14,15 @@ function converteUnidades(degree){
     
     const existsC = degree.toUpperCase().includes('C');
     const existsF = degree.toUpperCase().includes('F');
+    
+    let formulaCelsius = (F - 32) * 5/9;
 
     if(!existsC && !existsF){
         throw new Error("Grau não identificado!");
     }else if(existsC){
         console.log("Celsius");
     } else{
+        // fluxo ideal, F -> C
         console.log("Fahrenheit");
     }
 }
