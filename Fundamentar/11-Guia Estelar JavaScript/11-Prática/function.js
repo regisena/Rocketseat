@@ -73,3 +73,35 @@ function countAuthors() {
 countAuthors();
 
 // Mostrar livros do autor Augusto Cury
+
+function booksOfAugustoCury() {
+    let books = [];
+
+    for(const category of booksByCategory){
+        for(const book of category.books){
+            if(book.author === "Augusto Cury"){ 
+                books.push(book.title);
+            }
+        }
+    }
+    console.log("Livros do autor: ", books);
+}
+
+booksOfAugustoCury();
+
+// Transformar a função acima em uma função que irá receber o nome do autor e devolver os livros desse autor.
+
+function booksOfAuthor(author) {
+    let books = [];
+
+    for(const category of booksByCategory){
+        for(const book of category.books){
+            if(book.author === author){ 
+                books.push(book.title);
+            }
+        }
+    }
+    console.log(`Livros do autor ${author}: ${books.join(", ")}`);
+}
+
+booksOfAuthor("Augusto Cury");
